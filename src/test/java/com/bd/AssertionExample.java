@@ -22,6 +22,7 @@ public class AssertionExample extends BaseDriver {
 		 * 2 types of Assertion -> Hard & Soft
 		 * Hard Assertion -> if fail: next no execution
 		 */
+		
 		// Assert.assertEquals(actualTitle, expectedTitle);
 
 		/*
