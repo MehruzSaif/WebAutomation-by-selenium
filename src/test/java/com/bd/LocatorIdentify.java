@@ -53,10 +53,16 @@ public class LocatorIdentify extends BaseDriver {
 		signUpByContainsMethodXpath.click();
 
 		/* 
-		 * Custom Xpath
+		 * Custom Xpath example 1 by click on Sell on Daraz
 		 */
 		WebElement sellOnDarazByCustomXpath = driver.findElement(By.xpath("//div[@id='J_LzdSiteNav']/div/div[1]/div/div/div[1]/div/div[3]/a"));
 		sellOnDarazByCustomXpath.click();
+
+		/* 
+		 * Custom Xpath example 1 by click on SignUp/Login
+		 */
+		WebElement signupLoginCustomXpath = driver.findElement(By.xpath("//div[@id='J_LzdSiteNav']/div/div[1]/div/div/div[1]/div/div[6]/a"));
+		signupLoginCustomXpath.click();
 
 		Thread.sleep(5000);
 	}
