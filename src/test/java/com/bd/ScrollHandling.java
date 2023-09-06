@@ -15,7 +15,7 @@ public class ScrollHandling extends BaseDriver {
         driver.manage().window().maximize();
         Thread.sleep(2000);
 
-        WebElement target = driver.findElement(By.xpath("//span[@id='Nodejs_Desktop_Automation_Testing_Framework_Simon_Hofmann']"));
+        WebElement target = driver.findElement(By.xpath("//span[contains(text(),'The 4 Destroyers of Any Automation Test Script')]"));
         
         Actions action = new Actions(driver);
 
